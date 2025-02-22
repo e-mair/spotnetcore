@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{14A87B9D-972
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spotnetcore", "src\Spotnetcore\Spotnetcore.csproj", "{98BF82AC-222D-4E37-90D6-F77700E2DA0F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5ECDD4CA-3D57-41B8-A51C-85FABC67E190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spotnetcore.Tests", "test\Spotnetcore.Tests\Spotnetcore.Tests.csproj", "{7845A63A-B850-4A77-8789-2703133D7251}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,13 @@ Global
 		{98BF82AC-222D-4E37-90D6-F77700E2DA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98BF82AC-222D-4E37-90D6-F77700E2DA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98BF82AC-222D-4E37-90D6-F77700E2DA0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7845A63A-B850-4A77-8789-2703133D7251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7845A63A-B850-4A77-8789-2703133D7251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7845A63A-B850-4A77-8789-2703133D7251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7845A63A-B850-4A77-8789-2703133D7251}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{98BF82AC-222D-4E37-90D6-F77700E2DA0F} = {14A87B9D-9723-48D3-9850-F4DE2117CFBF}
+		{7845A63A-B850-4A77-8789-2703133D7251} = {5ECDD4CA-3D57-41B8-A51C-85FABC67E190}
 	EndGlobalSection
 EndGlobal
